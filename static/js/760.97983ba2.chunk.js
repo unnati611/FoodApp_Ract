@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkfood_app=self.webpackChunkfood_app||[]).push([[760],{760:(e,o,d)=>{d.r(o),d.d(o,{default:()=>c});d(43);var a=d(579);const c=()=>(0,a.jsx)("div",{children:(0,a.jsx)("h1",{children:"Hi,\ud83d\ude00 IAm Groccery Component .I Am From Lazy \ud83e\udd2aLoading Method"})})}}]);
+//# sourceMappingURL=760.97983ba2.chunk.js.map
