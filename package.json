@@ -1,7 +1,7 @@
 {
   "name": "food_app",
   "version": "0.1.0",
- "homepage": "https://unnati611.github.io/FoodApp_Ract",
+  "homepage": "https://unnati611.github.io/FoodApp_Ract",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.3",
@@ -16,7 +16,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-     "predeploy": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -45,6 +45,7 @@
     "@babel/core": "^7.24.4",
     "@babel/preset-env": "^7.24.4",
     "babel-jest": "^29.7.0",
+    "gh-pages": "^6.1.1",
     "jest-environment-jsdom": "^29.7.0",
     "tailwindcss": "^3.4.3"
   }
