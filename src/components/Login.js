@@ -33,9 +33,9 @@ const Login = () => {
     if (filterid.length > 0) {
       setuserName(userInputValue);
       setbtnname("LOGOUT");
-      navigate("/");
+      navigate("/FoodApp_Ract");
     } else {
-      navigate("/login");
+      navigate("/FoodApp_Ract/login");
       alert("PLEASE ,ENTER VALID ID PASSWORD");
       setbtnname("LOGIN");
     }

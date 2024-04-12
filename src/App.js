@@ -29,7 +29,7 @@ export function App() {
 
 export const appRouter = createBrowserRouter([
   {
-    path: "/FoodApp_Ract",
+    path: "/",
     element: <App />,
     children: [
       {
