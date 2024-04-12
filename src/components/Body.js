@@ -116,7 +116,10 @@ const Body = () => {
         <div className="res-container flex flex-wrap w-full h-screen">
           {filterlistOfRestaurents.map((restro) => {
             return (
-              <Link key={restro.info.id} to={"/restaurent/" + restro.info.id}>
+              <Link
+                key={restro.info.id}
+                to={"/FoodApp_Ract/restaurent/" + restro.info.id}
+              >
                 {/** if restro have more than 4.5 rating than adda promoted label on it */}
                 {restro.info.avgRating >= 4.4 ? (
                   <RestaurentCardPromoted
